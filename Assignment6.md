@@ -1,8 +1,9 @@
-Discuss as a team:
 what functionalities your project has now
 
     Android App:
-        - Take a Picture
+        - Opening the camera
+        - Taking a Picture
+        - Retaking a Picture
         - Save that picture to the phone's gallery
         - Retrive and display the picture in the app
     Backend:
@@ -14,8 +15,8 @@ what functionalities need unit tests
 
     Android App:
         - Photo being saved to the gallery properly
-        - Connecting to the REST API 
         - Dog breed is correctly displayed
+        - Cropped image is correctly displayed
 
     Backend:
         - ML data validation
@@ -24,18 +25,21 @@ what functionalities need unit tests
 what functionalities do not need unit tests
 
     Android App:
-        - 
-
+        - Opening the camera
+        - Taking a picture
+        - Retaking a picture
+        - Displaying caputured image
+        - Moving to different screens
+        
     Backend:
         - ML data validation, script that divides between database and test images
         - 
 
 
-
 how to write unit tests in your project (try to use a convention but make sure it's simple enough for your team to manage)
 
     Androip App:
-        - Tests within Android studio
+        - JUnit 4 tests in Android studio 
 
     Backend:
         - ML data validation, script that divides between database and test images
