@@ -14,7 +14,8 @@ what functionalities your project has now
 what functionalities need unit tests
 
     Android App:
-        - Photo being saved to the gallery properly
+        - Accessing the camera
+        - Creating the image file
         - Dog breed is correctly displayed
         - Cropped image is correctly displayed
 
